@@ -32,32 +32,24 @@ public class DisciplineController {
 
     @GetMapping("/{abbreviation}")
     public @ResponseBody
-    Discipline getDisciplineByAbbreviation(@PathVariable String abbreviation) {
+    SingleDisciplineWrapper getDisciplineByAbbreviation(@PathVariable String abbreviation) {
         // This returns a JSON or XML with the users
         Iterator<Discipline> disciplines = getAllDisciplines().iterator();
 
         boolean found = false;
-        Discipline response = new Discipline();
+        Discipline disc = new Discipline();
         while(!found && disciplines.hasNext()) {
             Discipline current = disciplines.next();
             if(current.getDISC_ABBREVIATION().equalsIgnoreCase(abbreviation)) {
-                response = current;
+                disc = current;
                 found = true;
             }
         }
 
-        return response;
-    }
-
-    @GetMapping("/test")
-    public @ResponseBody
-    DisciplineDAO test() {
-        Discipline disc = getDisciplineByAbbreviation("MATH");
-        Iterable<Department> departments = departmentRepository.findAll();
-        DisciplineDAO response = new DisciplineDAO(disc, departments);
+        Department department = disc.getDepartment();
+        SingleDisciplineWrapper response = new SingleDisciplineWrapper(disc, department);
 
         return response;
     }
 
-    // Add get by id... then get disciplines via get method. Send result back.
 }
