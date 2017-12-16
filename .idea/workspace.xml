@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b36bff24-10bf-4ed0-9b04-6501dd2cf36a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/course/Course.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/course/CourseController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/course/CoursePk.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/course/CourseRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/courseComments/CourseComments.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/courseComments/CourseCommentsController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/courseComments/CourseCommentsRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/discipline/SingleDisciplineWrapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/instructor/Instructor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/instructor/InstructorController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/instructor/InstructorPk.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/instructor/InstructorRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/section/CourseSection.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/section/CourseSectionController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/section/CourseSectionRepository.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/me/tomprince/coursesearch/api/discipline/DisciplineController.class" afterPath="$PROJECT_DIR$/out/production/classes/me/tomprince/coursesearch/api/discipline/DisciplineController.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/me/tomprince/coursesearch/api/discipline/DisciplineDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/discipline/DisciplineController.java" afterPath="$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/discipline/DisciplineController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/discipline/DisciplineDAO.java" afterPath="" />
-    </list>
+    <list default="true" id="b36bff24-10bf-4ed0-9b04-6501dd2cf36a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -43,7 +22,7 @@
       <file leaf-file-name="CourseComments.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/courseComments/CourseComments.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
+            <state relative-caret-position="420">
               <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="46" selection-end-column="5" />
               <folding>
                 <element signature="e#615#616#0" expanded="true" />
@@ -676,15 +655,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="coursesearch" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="course-search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course-search" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="coursesearch" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -883,7 +853,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512935905243</updated>
-      <workItem from="1512935912160" duration="31184000" />
+      <workItem from="1512935912160" duration="31417000" />
     </task>
     <servers />
   </component>
@@ -896,7 +866,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31184000" />
+    <option name="totallyTimeSpent" value="31417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="397" y="23" width="1043" height="797" extended-state="0" />
@@ -1443,7 +1413,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/tomprince/coursesearch/api/courseComments/CourseComments.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
+        <state relative-caret-position="420">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="46" selection-end-column="5" />
           <folding>
             <element signature="e#615#616#0" expanded="true" />
