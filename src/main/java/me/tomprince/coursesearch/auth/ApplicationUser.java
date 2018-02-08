@@ -11,6 +11,14 @@ public class ApplicationUser {
     private String username;
     private String password;
 
+    public ApplicationUser() {
+    }
+
+    public ApplicationUser(ApplicationUser user) {
+        this.username = user.getUsername();
+        this.id = -1;
+    }
+
     public long getId() {
         return id;
     }
